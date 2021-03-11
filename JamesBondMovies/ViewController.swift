@@ -45,5 +45,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //
+        print("Table row was tapped")
+        let detailController = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        detailController.hero = allHeros[(indexPath as NSIndexPath).row]
+        navigationController?.pushViewController(detailController, animated: true)
+    }
 }
 
