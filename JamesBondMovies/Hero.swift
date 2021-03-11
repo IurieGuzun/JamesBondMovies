@@ -35,7 +35,7 @@ struct Hero {
     }
 }
 
-// MARK: - Hero (All Villians)
+// MARK: - Hero (All Heros)
 
 /**
 * This extension adds static variable allHeros. An array of Hero objects
