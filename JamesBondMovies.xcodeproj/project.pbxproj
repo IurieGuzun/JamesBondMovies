@@ -13,6 +13,7 @@
 		8A2F096125FA645900D7A4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2F095F25FA645900D7A4AF /* Main.storyboard */; };
 		8A2F096325FA645A00D7A4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2F096225FA645A00D7A4AF /* Assets.xcassets */; };
 		8A2F096625FA645A00D7A4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2F096425FA645A00D7A4AF /* LaunchScreen.storyboard */; };
+		8A2F096E25FA654E00D7A4AF /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F096D25FA654E00D7A4AF /* Hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8A2F096225FA645A00D7A4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A2F096525FA645A00D7A4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A2F096725FA645A00D7A4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2F096D25FA654E00D7A4AF /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				8A2F095925FA645900D7A4AF /* AppDelegate.swift */,
 				8A2F095B25FA645900D7A4AF /* SceneDelegate.swift */,
+				8A2F096D25FA654E00D7A4AF /* Hero.swift */,
 				8A2F095D25FA645900D7A4AF /* ViewController.swift */,
 				8A2F095F25FA645900D7A4AF /* Main.storyboard */,
 				8A2F096225FA645A00D7A4AF /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				8A2F095E25FA645900D7A4AF /* ViewController.swift in Sources */,
 				8A2F095A25FA645900D7A4AF /* AppDelegate.swift in Sources */,
 				8A2F095C25FA645900D7A4AF /* SceneDelegate.swift in Sources */,
+				8A2F096E25FA654E00D7A4AF /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
